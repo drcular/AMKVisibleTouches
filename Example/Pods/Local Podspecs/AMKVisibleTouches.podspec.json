@@ -1,0 +1,23 @@
+{
+  "name": "AMKVisibleTouches",
+  "version": "0.1.0",
+  "summary": "A short description of AMKVisibleTouches.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AMKVisibleTouches",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lucas": "drcular@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AMKVisibleTouches.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMKVisibleTouches/Classes/**/*",
+  "frameworks": "UIKit"
+}

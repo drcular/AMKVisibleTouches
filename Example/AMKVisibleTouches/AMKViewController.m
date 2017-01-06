@@ -18,6 +18,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"AMKVisibleTouches";
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:75/255.0 green:172/255.0 blue:238/255.0 alpha:1];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UILabel *lable = [[UILabel alloc] initWithFrame:self.view.bounds];
+    lable.text = @"Hello World";
+    lable.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lable];
+
 }
 
 - (void)didReceiveMemoryWarning

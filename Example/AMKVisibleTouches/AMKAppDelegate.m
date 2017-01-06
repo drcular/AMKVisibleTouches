@@ -8,10 +8,20 @@
 
 #import "AMKAppDelegate.h"
 
+#import "AMKViewController.h"
+#import "UIWindow+AMKVisibleTouches.h"
+
 @implementation AMKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.backgroundColor = [UIColor blackColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[AMKViewController new]];
+    self.window.amk_touchesVisible = YES;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

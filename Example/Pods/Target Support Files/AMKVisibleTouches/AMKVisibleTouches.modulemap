@@ -1,0 +1,6 @@
+framework module AMKVisibleTouches {
+  umbrella header "AMKVisibleTouches-umbrella.h"
+
+  export *
+  module * { export * }
+}

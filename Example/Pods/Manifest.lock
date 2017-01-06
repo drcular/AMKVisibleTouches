@@ -1,0 +1,16 @@
+PODS:
+  - AMKVisibleTouches (0.1.0)
+
+DEPENDENCIES:
+  - AMKVisibleTouches (from `../`)
+
+EXTERNAL SOURCES:
+  AMKVisibleTouches:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMKVisibleTouches: 6f1e9475cccb6714cb8bc960775a70c807d8b14c
+
+PODFILE CHECKSUM: 721cfc96926d277eda61e9d4cdc5f168129e22e0
+
+COCOAPODS: 1.0.1
