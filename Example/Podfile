@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMKVisibleTouches_Example' do
+  pod 'AMKVisibleTouches', :path => '../'
+
+  target 'AMKVisibleTouches_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
